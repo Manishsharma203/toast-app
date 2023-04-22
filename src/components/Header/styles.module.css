@@ -1,0 +1,39 @@
+.root {
+  /* min-height: 20vh; */
+  max-height: max-content;
+  background: #f0f3f3;
+  box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+  border-radius: 0px 0px 10px 10px;
+}
+.container {
+  box-sizing: border-box;
+  padding: 3rem 1.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.667vw;
+}
+.iconContainer {
+  display: flex;
+  gap: 1.6rem;
+}
+.imgLogo {
+  /* width: 7.778vw;
+  height: 7.778vw; */
+
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+}
+.container2 {
+  box-sizing: border-box;
+  padding: 3rem 1.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}

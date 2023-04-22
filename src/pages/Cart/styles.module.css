@@ -1,0 +1,27 @@
+.root {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.7rem;
+}
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem 0px;
+  gap: 2.4rem;
+  background: #f1f1f1;
+  box-shadow: inset -3px -3px 7px #ffffff,
+    inset 2px 2px 5px rgba(174, 174, 192, 0.4);
+  border-radius: 1rem;
+}
+.item {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 0px 0.8rem;
+  gap: 0.8rem;
+}
+.nameContainer {
+  flex-grow: 1;
+}

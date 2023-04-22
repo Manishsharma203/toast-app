@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  align-items: flex-start;
+  padding: 0.8rem;
+  gap: 0.8rem;
+  background: #f6f6f6;
+  box-shadow: inset -2px 2px 4px rgba(220, 220, 220, 0.2),
+    inset 2px -2px 4px rgba(220, 220, 220, 0.2),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.9),
+    inset 2px 2px 5px rgba(220, 220, 220, 0.9);
+  border-radius: 1rem;
+}
+.imgContainer {
+  width: max-content;
+}
+.imgContainer img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 0px 0.8rem;
+  gap: 1.6rem;
+}
+.title {
+}
+.price {
+  display: flex;
+  gap: 0.8rem;
+}
+.btnContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

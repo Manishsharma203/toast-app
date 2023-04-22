@@ -1,0 +1,31 @@
+.root {
+  margin-top: 2rem;
+}
+.accordion {
+  display: flex;
+  align-items: center;
+  height: 0px;
+  gap: 0.8rem;
+}
+.line {
+  border: 1px solid #4a5662;
+  flex-grow: 1;
+  filter: opacity(10%);
+}
+.triangleBtnUp {
+  width: 0;
+  height: 0;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid #3cbcb4;
+}
+.triangleBtnDown {
+  width: 0;
+  height: 0;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-top: 0.5rem solid #3cbcb4;
+}
+.container {
+  margin-top: 1.8rem;
+}

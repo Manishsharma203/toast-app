@@ -1,0 +1,39 @@
+.root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+padding: 0px; */
+  gap: 0.8rem;
+  background: #f6f6f6;
+  box-shadow: inset -2px 2px 4px rgba(205, 205, 205, 0.2),
+    inset 2px -2px 4px rgba(205, 205, 205, 0.2),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.9),
+    inset 2px 2px 5px rgba(205, 205, 205, 0.9);
+  border-radius: 0.8rem;
+}
+.imgContainer {
+  width: 100%;
+}
+.imgContainer img {
+  width: 100%;
+  height: auto;
+  max-height: 12rem;
+  object-fit: cover;
+  border-radius: 0.8rem 0.8rem 0px 0px;
+}
+.infoContainer {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 0.8rem;
+}
+.btnContainer {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+.vegIcon {
+}

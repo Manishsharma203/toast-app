@@ -1,0 +1,37 @@
+.root {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.7rem;
+}
+.bannerScreen {
+  background: #f1f1f1;
+  max-height: 12rem;
+  box-shadow: -5px 5px 10px rgba(217, 217, 217, 0.2),
+    5px -5px 10px rgba(217, 217, 217, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.9),
+    5px 5px 13px rgba(217, 217, 217, 0.9);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.bannerImg {
+  width: 100%;
+  max-height: 12rem;
+  grid-area: 1/1;
+  object-fit: cover;
+  border-radius: 1rem;
+  filter: brightness(70%);
+}
+.bannerText {
+  grid-area: 1/1;
+  place-self: end start;
+  padding: 1.7rem;
+  z-index: 1;
+}
+.bannerText p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+}

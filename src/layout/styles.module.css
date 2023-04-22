@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  /* width: inherit; */
+  box-sizing: border-box;
+}
+.outlet {
+  flex-grow: 1;
+  margin-bottom: 60px;
+}
