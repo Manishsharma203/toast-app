@@ -88,11 +88,22 @@ button {
   color: #3cbcb4;
   border-bottom: 2px solid #3cbcb4;
 }
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+}
 @media (min-width: 650px) {
   html {
     font-size: 16px;
   }
   .App {
     max-width: 60vw;
+  }
+  .footer {
+    width: 60vw;
+    margin-left: 20vw;
   }
 }

@@ -6,14 +6,19 @@ import styles from "./styles.module.css";
 
 export default function Layout() {
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
       <div className={styles.header}>
         <Header restraunt_name="Sacred Earth Cafe" />
       </div>
       <div className={styles.outlet}>
         <Outlet />
       </div>
-      <div className={styles.footer}>
+      <div className="footer">
         <Footer />
       </div>
     </div>
